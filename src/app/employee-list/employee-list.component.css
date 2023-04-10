@@ -1,0 +1,31 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    height: 100vh;
+    overflow: hidden;
+    padding-left: 40%;
+}
+
+.elist{
+    background-color:antiquewhite;
+    /* margin-left:  30px black; */
+    max-width: 80%;
+    justify-content: center;
+    padding-top: 25x;
+    margin-top: 18px;
+    align-self: center;
+
+}
+
+.elist h2{
+    color: #8e44ad;
+    font-family: serif;
+    font-weight: 200;
+    text-align: center;
+    border: 0.5em yellow;
+    border-style:inset;
+    border-radius: inherit;
+}
+
+

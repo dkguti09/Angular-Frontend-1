@@ -1,0 +1,31 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    height: 100vh;
+    overflow: hidden;
+}
+.view{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 200px;
+    background: #29b978;
+     border-radius: 10px;
+     text-align: center;
+
+}
+
+.view h4{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+    height: 50px;
+    color: rgb(255, 0, 13);
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

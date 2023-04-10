@@ -1,0 +1,33 @@
+<div class="all">
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a routerLink="employees" routerLinkActive="active" class="nav-link" >Employee List</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="create-employee" routerLinkActive="active" class="nav-link" > Add Employee</a>
+      </li>
+    </ul>
+    <!-- <nav class="navbar navbar-light bg-light"> -->
+      <div class="container-fluid">
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search Employee" aria-label="Search">
+          <button class="btn btn-light btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    <!-- </nav> -->
+  </nav>
+  
+  <marquee >
+    <h1 class="text-center">{{title}}</h1>
+  </marquee>
+<div class="container">
+  <!-- <app-employee-list></app-employee-list> -->
+  <router-outlet></router-outlet>
+</div>
+<footer class="footer">
+  <div class="container-fluid">
+    <span>All Rights Reserved 2023 @Deep</span>
+  </div>
+</footer>
+</div>
